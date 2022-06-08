@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="maincontent.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html"><img src="images/NEWZZZY (2)LOGOO.png" alt=""></a></div>
+            <div class="menu">
+                <a href="index.html">HOME|</a>
+                <a href="national.html">NATIONAL|</a>
+                <a href="international.html">INTERNATIONAL|</a>
+                <a href="sports.html">SPORTS|</a>
+                <a href="cultural.html">CULTURE|</a>
+                <a href="politics.html">POLITICS|</a>
+                <a href="tech.html">TECH|</a>
+                <a href="review.php">REVIEW|</a>
+                <a href="about.html">ABOUT|</a>
+            </div>
+            <div class="icon">
+                <i class="fa fa-search"></i>
+                <a href="login.html">Login</a>
+            </div>
+        </nav>
+    </header>
+    <section class="h-text" style="position:absolute;">
+        <i class="fa fa-camera" id="camera"></i>
+        <h1>Get the World's Latest News</h1>
+        <h2 class="front-section">Worlds largest News Portal</h2>
+        <input type="text" name="" placeholder="search here..." />
+        <button><i class="fa fa-search"></i></button>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+<style type="text/css">
+#overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #000;
+filter:alpha(opacity=70);
+-moz-opacity:0.7;
+-khtml-opacity: 0.7;
+opacity: 0.7;
+z-index: 100;
+display: none;
+}
+.cnt223 a{
+text-decoration: none;
+}
+.popup{
+width: 100%;
+margin: 0 auto;
+display: none;
+position: fixed;
+z-index: 101;
+}
+.cnt223{
+min-width: 600px;
+width: 600px;
+min-height: 150px;
+margin: 100px auto;
+background: #f3f3f3;
+position: relative;
+z-index: 103;
+padding: 15px 35px;
+border-radius: 5px;
+box-shadow: 0 2px 5px #000;
+}
+.cnt223 p{
+clear: both;
+    color: #555555;
+    /* text-align: justify; */
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.cnt223 p a{
+color: #d91900;
+font-weight: bold;
+}
+.cnt223 .x{
+float: right;
+height: 35px;
+left: 22px;
+position: relative;
+top: -25px;
+width: 34px;
+}
+.cnt223 .x:hover{
+cursor: pointer;
+}
+</style>
+<script type='text/javascript'>
+$(function(){
+var overlay = $('<div id="overlay"></div>');
+overlay.show();
+overlay.appendTo(document.body);
+$('.popup').show();
+$('.close').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+
+
+ 
+
+$('.x').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+});
+</script>
+<div class='popup'>
+<div class='cnt223'>
+<h1>WELCOME TO NEWZZZY</h1>
+<p>
+Get all latest news on world's Largest NEWS portal.
+<br/>
+<br/>
+<a href='' class='close'>Close</a>
+</p>
+</div>
+</div>
+
+    <section class="banner">
+        <div class="banner-main-content">
+            <h2>GET THE WORLD'S LATEST NEWS PORTAL</h2>
+            <h3>World's Leading News Portal</h3>
+
+            <button>
+                <a href="#">Know More</a>
+            </button>
+
+            <div class="current-news-head">
+                <h3>Apple Glasses: What we expect, what we think we are </h3>
+
+                <h3>What's it's like to have Elon Musk's old phone number </h3>
+
+                <h3>Watch the exact moment Chris Pratt accidentally deletes 51, 000 emials </h3>
+
+                <h3>Richard Branson's Virgin Orbit will launch a rocket from midair Sunday </h3>
+            </div>
+        </div>
+
+        <div class="banner-sub-content">
+            <div class="hot-topic">
+                <img src="https://images.pexels.com/photos/3873191/pexels-photo-3873191.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>Covid-19: Calling Omicron 'mild' a mistake, warns WHO</h2>
+
+                    <h3>New Topic 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequatur nostrum minus
+                        iusto fugit unde.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="hot-topic">
+                <img src="https://images.pexels.com/photos/2833377/pexels-photo-2833377.png?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>Ukraine offers Covid-19 booster shots to all adults</h2>
+
+                    <h3>New Topic 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequatur nostrum minus
+                        iusto fugit unde.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="hot-topic">
+                <img src="https://images.pexels.com/photos/10464480/pexels-photo-10464480.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>Twitter's New Retweet With Comment Counter Is Now Available On Andriod & Web</h2>
+
+                    <h3>New Topic 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequatur nostrum minus
+                        iusto fugit unde.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="hot-topic">
+                <img src="https://images.pexels.com/photos/245132/pexels-photo-245132.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>Twitter's New Retweet With Comment Counter Is Now Available On Andriod & Web</h2>
+
+                    <h3>New Topic 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consequatur nostrum minus
+                        iusto fugit unde.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <main>
+        <section class="main-container-left">
+            <h2>Top Stories</h2>
+            <div class="container-top-left">
+                <article>
+                    <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+
+                    <div>
+                        <h3>Best Used Cars Under $20, 000 for families</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ea sint, nisi rem earum
+                            fugit? Facere veritatis sapiente eveniet quibusdam.</p>
+
+                        <a href="#">Read More <span>>></span></a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="container-bottom-left">
+                <article>
+                    <img src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    <div>
+                        <h3>Best smart speakers for the year</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                            Explicabo, nihil?</p>
+
+                        <a href="#">Read More <span>>></span></a>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="https://images.pexels.com/photos/40739/mobile-phone-smartphone-tablet-white-40739.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                    <div>
+                        <h3>iPad Pro, reviewed: Has the iPad become my main computer now?</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                            Explicabo, nihil?</p>
+
+                        <a href="#">Read More <span>>></span></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="main-container-right">
+            <h2>Latest Stories</h2>
+
+            <article>
+                <h4>just in </h4>
+                <div>
+                    <h2>Here's how to track your stimulus check with the IRS Get My Payment Portal</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+
+                    <a href="#">Read More <span>>></span></a>
+                </div>
+                <img src="https://images.pexels.com/photos/2068975/pexels-photo-2068975.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+            </article>
+
+            <article>
+                <h4>just in </h4>
+                <div>
+                    <h2>The best outdoor games to play with your family</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+
+                    <a href="#">Read More <span>>></span></a>
+                </div>
+                <img src="https://images.pexels.com/photos/296302/pexels-photo-296302.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+            </article>
+
+            <article>
+                <h4>just in </h4>
+                <div>
+                    <h2>Why walk? Check out the best electric scooters and e-bikes for 2020</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+
+                    <a href="#">Read More <span>>></span></a>
+                </div>
+                <img src="https://images.pexels.com/photos/1379374/pexels-photo-1379374.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+            </article>
+
+            <article>
+                <h4>just in </h4>
+                <div>
+                    <h2>Disneyland Paris will stream its Lion King stage show Friday night</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+
+                    <a href="#">Read More <span>>></span></a>
+                </div>
+                <img src="https://images.pexels.com/photos/3411135/pexels-photo-3411135.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+            </article>
+
+            <article>
+                <h4>just in </h4>
+                <div>
+                    <h2>Looking at a phone's lock screen also requries a warrant, judge rules</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus?</p>
+
+                    <a href="#">Read More <span>>></span></a>
+                </div>
+                <img src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>NEWZZZY</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias aut blanditiis totam
+                    quia enim, autem tenetur cum facere, fugit beatae at voluptas ipsum perferendis!</p>
+            </div>
+
+            <div class="footer-right">
+                <h2>Newletter</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, autem!</p>
+
+                <div>
+                    <input type="text" placeholder="Email Address">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+        </div>
+
+        <p>Copyright &copy; 2025 All rights reserved | GeekProbin</p>
+    </footer>
+
+</html>
